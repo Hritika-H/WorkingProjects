@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="indexstyle.css" rel="stylesheet" />
+</head>
+<body><div class="container">
+          
+              <input id="addbut" type="button" value="Add New" onclick="addnew()" />
+              <form id="mainform" onsubmit="return false">
+                  <div class="ipdiv">
+                      <label for="nameText">Name</label> <input id="nameText" type="text" />
+                      <label for="desText">Designation</label>
+                      <input type="text" id="desText" list="desTextlist" />
+                      <datalist id="desTextlist">
+                          <option value="Software Developer Intern">Software Developer Intern</option>
+                          <option value="Front End Developer Intern">Front End Developer Intern</option>
+                          <option value="Back End Developer Intern">Back End Developer Intern</option>
+                          <option value="Software Testing Intern">Software Testing Intern</option>
+                          <option value="Machine Learning Intern">Machine Learning Intern</option>
+                      </datalist>
+
+                      <label for="joiningText">Joining</label> <input id="joiningText" type="date" />
+                      <label for="ageText">Age</label> <input id="ageText" type="number" />
+                  </div>
+                  <div class="sccbuttons">
+                      <input id="Submit" type="submit" value="submit" onclick="sub()" />
+                      <input id="Clear" type="button" value="Clear" onclick="onClear()" />
+                      <input id="Cancel" type="button" value="Cancel" onclick="onCancel()" />
+                  </div>
+              </form>
+
+          
+              <table id="newdata">
+                  <tr class="firsttr">
+                      <th>Name</th>
+                      <th>Designation</th>
+                      <th>Joining</th>
+                      <th>Age</th>
+                      <th>#</th>
+                  </tr>
+              </table>
+          
+</div>
+    <script src="indexJavascript.js"></script>
+</body>
+</html>

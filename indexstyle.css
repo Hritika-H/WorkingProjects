@@ -1,0 +1,101 @@
+body {
+    background-color:#aab5de;
+    background-image:url("https://unsplash.it/1600/900?image=830");
+    font-size:18px;
+    height:100%;
+}
+
+label{
+    font-family:Calibri;
+    font:bold;
+    margin:10px;
+}
+
+.ipdiv input{
+    margin:10px;
+}
+
+.ipdiv{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
+.sccbuttons{
+    display:flex;
+    justify-content:flex-end;
+}
+
+#Clear{
+    color:black;
+    background-color:#fae054;
+    margin:10px;
+    width:60px;
+    height:40px;
+}
+
+#Submit{
+    color:white;
+    background-color:#4d70f9;
+    margin:10px;
+    width:60px;
+    height:40px;
+}
+
+#Cancel{
+    color:white;
+    background-color:#f71d1d;
+    margin:10px;
+    width:60px;
+    height:40px;
+}
+
+#addbut{
+     color:white;
+     background-color:#4d70f9;
+     margin-bottom:20px;  
+     width:80px;
+     height:40px;
+}
+
+.container{
+    max-width: 600px;
+    margin: auto;
+    top: 50%;
+    border: 5px solid #a3b3ef;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding:20px;
+    background: rgba(255, 255, 255, .7);
+	/*-webkit-backdrop-filter: blur(10px);*/
+	backdrop-filter: blur(10px);
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+    border: 3px solid black;
+    
+}
+
+.firsttr{
+    background-color:black;
+    color:white;
+    font-family:Calibri;
+    font:bold;
+    
+}
+
+td{
+    background-color:white;
+    color:black;
+    font-family:Calibri;
+    padding:2px;
+    font-size:16px;
+}
+
+table tr td input{
+    color:white;
+    background-color:#f71d1d;
+
+}

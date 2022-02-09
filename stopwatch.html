@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Stopwatch</title>
+<link href="stopwatchstyle.css" rel="stylesheet" />
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+</head>
+<body onload="show();" >
+<div class="circle rounded-circle">
+<div>Time: <span id="time"></span></div>
+<input type="button" onclick="start();" value="Start" class="startb btn btn-success btn-lg">
+<input type="button" onclick="stop();" value="Stop" class="stopb btn btn-danger btn-lg">
+<input type="button" onclick="restart();" value="Restart" class="restartb btn btn-warning btn-lg">
+</div>
+<script src="stopwatchjavascript.js"></script>
+</body>
+</html>

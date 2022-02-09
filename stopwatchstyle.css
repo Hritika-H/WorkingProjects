@@ -1,0 +1,53 @@
+body{
+	margin:0px;
+	padding:0px;
+	background: linear-gradient(#e66465, #9198e5);
+}
+
+.circle div{
+	grid-area:timediv;
+	margin:auto;
+	font-size:50px;
+	margin-bottom:5px;
+}
+
+.startb{
+	grid-area:startb;
+	margin:auto;
+	margin-top:50px;
+	margin-right:10px;
+	width:95px;
+	
+}
+
+.stopb{
+	grid-area:stopb;
+	margin:auto;
+	margin-top:50px;
+	width:95px;
+
+}
+
+.restartb{
+	grid-area:restartb;
+	margin:auto;
+	margin-top:50px;
+	margin-left:10px;
+}
+
+.circle{
+	width:500px;
+	height:500px;
+	background-color:#D3D3D3;
+	margin-top:10%;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:250px 250px;
+	display:grid;
+	grid-template-columns: auto auto auto;
+  	grid-template-rows: auto;
+ 	grid-template-areas: 
+    		"timediv timediv timediv"
+   	           	"startb stopb restartb"
+}
+
